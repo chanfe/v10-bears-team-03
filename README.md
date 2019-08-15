@@ -91,11 +91,20 @@ This section should list any major frameworks that you built your project using.
 ## Mock up of the application (to be)
 [![Product Name Screen Shot][product-screenshot]](https://github.com/chingu-voyages/v10-bears-team-03)
 ### Prerequisites
-
-(TO BE FILLED)
+1. MongoDB Altlas
+2. Google Firebase account
+3. env variable below
+```
+REACT_APP_FIREBASE_API_KEY=*************
+REACT_APP_FIREBASE_AUTH_DOMAIN=fitness-tracker-aae**.firebaseapp.com
+REACT_APP_FIREBASE_DATABASE_URL=https://fitness-tracker-aae**.firebaseio.com
+REACT_APP_FIREBASE_PROJECT_ID=fitness-tracker-aae**
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=*********
+REACT_APP_FIREBASE_APP_ID=*:*****:web:*****
+MONGODB_URI=mongodb://chanf123:****3@cluster0-shard-00-00-fy09o.mongodb.net:27017,cluster0-shard-00-01-fy09o.mongodb.net:27017,cluster0-shard-00-02-fy09o.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority
+```
 
 ### Installation
-(TO BE AMENDED)
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
 ```sh
@@ -111,8 +120,10 @@ const API_KEY = 'ENTER YOUR API';
 ```
 <!-- USAGE EXAMPLES -->
 ## Usage
-(TO BE AMENDED)
-_For more examples, please refer to the [Documentation](https://example.com)_
+Once login you can use it to create and track equipment you have used.  
+Once the Equipment created you can update the values as well as delete the item.
+
+_For more examples, you can goto our sample website [Here].(https://tracker-21.herokuapp.com/)_
 
 
 
@@ -159,7 +170,7 @@ Project Link: [https://github.com/chingu-voyages/v10-bears-team-03](https://gith
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-
+Sina Jazayeri and Adam Davies for giving us a space to meet-up.
 
 
 
